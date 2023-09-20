@@ -1,9 +1,9 @@
-// INCLUDES 
+// INCLUDES
 
 // MACROS
 #define LED_PIN 7
 #define BTN_PIN 2
-// GLOBAL VARS 
+// GLOBAL VARS
 
 // FUNCTION PROTOTYPE
 
@@ -17,7 +17,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   Serial.println(digitalRead(BTN_PIN));
-  if (digitalRead(BTN_PIN) == HIGH){
+  if (digitalRead(BTN_PIN) == HIGH) {
 
     digitalWrite(LED_PIN, HIGH);
   } else {
