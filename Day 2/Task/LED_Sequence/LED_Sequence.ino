@@ -46,7 +46,7 @@ void loop() {
 			led_on(leds_pins[counter-1]);
 		}
 		else {	
-      led_off(leds_pins[counter-5]);
+      led_off(leds_pins[counter - (num_leds-1)]);
 			if (counter == num_leds*2){
 				counter = 0;
 			}
